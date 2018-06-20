@@ -1,0 +1,147 @@
+body {
+    font-family: cursive, sans-serif;
+    font-size: 24px;
+    background: navy;
+    color: #fff;
+    text-shadow: 1px 1px 1px hsla(0, 100%, 100%, 0.2);
+  }
+  
+  .wrapper {
+    width: 800px;
+    margin: auto;
+    padding: 20px 15px 20px 25px;
+}
+.box-wrp {
+    font-size: 0;
+    border: 2px solid #fff;
+    width: 400px;
+    height: 400px;
+    background: #fff url(http://ixfocus.com/projects/Intellia1/intelliaold/images/Birds-national-geographic-6873734-1600-1200.jpg);
+    background-position: center;
+    background-size: 135%;
+    background-repeat: no-repeat;
+}
+.box {
+    --w: 200px;
+    width: var(--w);
+    height: var(--w);
+    border-radius: 50%;
+}  
+
+.red {
+    /* background: hsla(0, 100%, 50%, 0.5); */
+    background: #f00;
+    position: relative;
+    left: 50px;
+    top: 50px;
+    display: inline-block;
+}
+
+.green {
+    /* background: hsla(120, 100%, 50%, 0.5); */
+    background: #0f0;
+    position: relative;
+    display: inline-block;
+    right: 50px;
+    top: 50px;
+}
+
+.blue {
+    /* background: hsla(240, 100%, 50%, 0.5); */
+    background: #00f;
+    position: relative;
+    left: 100px;
+    bottom: 50px;
+}  
+h4 {
+    text-align: left;
+}
+
+.multiply {
+    mix-blend-mode: multiply;
+}
+
+.screen {
+    mix-blend-mode: screen;
+}
+
+.overlay {
+    mix-blend-mode: overlay;
+}
+
+.darken {
+    mix-blend-mode: darken;
+}
+
+.lighten {
+    mix-blend-mode: lighten;
+}
+
+.color-dodge {
+    mix-blend-mode: color-dodge;
+}
+
+.color-burn {
+    mix-blend-mode: color-burn;
+}
+
+.hard-light {
+    mix-blend-mode: hard-light;
+}
+
+.soft-light {
+    mix-blend-mode: soft-light;
+}
+
+.difference {
+    mix-blend-mode: difference;
+}
+
+.exclusion {
+    mix-blend-mode: exclusion;
+}
+
+.hue {
+    mix-blend-mode: hue;
+}
+
+.saturation {
+    mix-blend-mode: saturation;
+}
+
+.color {
+    mix-blend-mode: color;
+}
+
+.luminosity {
+    mix-blend-mode: luminosity;
+}
+
+code {
+    color: gold;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+.on-off {
+    position: fixed;
+    bottom: 25px;
+    right: 25px;    
+}
+button {
+    padding: 5px 15px;
+    border-radius: 15px;
+    color: #fff;
+    font-size: 24px;
+}
+[data-color="red"] {
+    background: #f00;
+}
+[data-color="green"] {
+    background: #0f0;
+}
+[data-color="blue"] {
+    background: #00f;
+}
